@@ -1,0 +1,158 @@
+body {
+    display: block;
+    margin-top: 8px;
+}
+
+.main {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    flex: 100%;
+    background-color: black;
+    width: calc(min(100%, 1200px));
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    flex: 100%;
+    background-color: black;
+    width: calc(min(100%, 1200px));
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: -13px;
+
+  }
+
+.boxContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: rgb(182, 208, 255);
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+.box2 {
+    background-color: white;
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box2 img {
+    width: 100%;
+    height: auto;
+}
+
+.headerBuffer {
+    height: 75px;
+}
+
+element.style {
+    order: 1;
+}
+
+element.style {
+    order: 2;
+}
+
+element.style {
+    order: 3;
+}
+
+element.style {
+    order: 4;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1200px) {
+.box {
+    flex: 1;
+    padding: 10px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.box2 {
+    flex: 1;
+    padding: 10px;
+}
+}
+    
+
+@media screen and (min-width: 1200px) {
+.largeBox {
+    flex: 2 !important;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.footer {
+    margin-top: -31px;
+}
+}
+
+.titre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.titre2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
